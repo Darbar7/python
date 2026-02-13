@@ -1,0 +1,5 @@
+product_of_price1 = float(input("enter the price of first product:"))
+product_of_price2 = float(input("enter the price of second product:"))
+product_of_price3 = float(input("enter the price of third product:"))
+product_of_price4 = float(input("enter the price of fourth product:"))
+print(product_of_price1 + product_of_price2 + product_of_price3 + product_of_price4 /4)
