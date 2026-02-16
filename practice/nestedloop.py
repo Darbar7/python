@@ -24,7 +24,9 @@ reverse = 0
 while num > 0:
     digit = num % 10
     reverse = reverse * 10 + digit
-    num //= 10     
+    num //= 10    
+print("reverse number:", reverse)
+
 
 
 # Count digit in a number
@@ -34,4 +36,5 @@ while num > 0:
     num //= 10
     count += 1
 print("number of digits:", count)
+
 
