@@ -13,7 +13,20 @@ def is_palindrome(s):
 is_palindrome("madam")  
 is_palindrome(12321)
 
+# Find a factorial of a number
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+factorial(5)
 
-
-
-
+# write a function to reverse a string without using slicing
+def reverse_string(s):
+    words = int(input("Enter the number of words: "))
+    reversed_string = ""
+    for i in range(words):
+        word = input("Enter word: ")
+        reversed_string = word + " " + reversed_string
+    return reversed_string.strip()
+reverse_string("Hello World")
